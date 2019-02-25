@@ -1,12 +1,17 @@
 {
   "name": "lvv_npm_test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "个人npm学习测试",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":"https://github.com/Wei-Li-19/lvv_npm_test.git",
+  "repository": "https://github.com/Wei-Li-19/lvv_npm_test.git",
   "author": "lvv",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.13.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3"
+  }
 }
